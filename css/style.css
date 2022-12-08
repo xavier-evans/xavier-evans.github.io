@@ -1,0 +1,176 @@
+.landing {
+	height: 100vh;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 5em;
+	color: #825a5a;
+	margin-top: 5em;
+}
+
+.section-header {
+	font-size: 3em;
+	margin-top: 2em;
+	margin-bottom: -0.5em;
+}
+
+h2 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 2.72em;
+	color: #94a97a;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.5em;
+	color: #94a97a;
+	margin-top: 2em;
+}
+
+p {
+	font-family: 'Palatino', serif;
+	font-size: 1em;
+	text-align: justify;
+}
+
+b,
+i {
+	/*color: #94a97a;*/
+}
+
+.icon {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 1.5em auto 0 auto;
+}
+
+.arrow-right {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 0 1em 0 auto;
+}
+
+.arrow-left {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+	margin: 0 auto 0 1em;
+}
+
+.right-heading {
+	text-align: end;
+}
+
+iframe {
+	margin: 4em auto 0 auto;
+	display:block;
+}
+
+ul, li{
+	list-style: none;
+	padding: 0;
+}
+
+.timeline-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1rem;
+	/*background: linear-gradient(45deg, #209cff, #68e0cf);*/
+	padding: 3rem 0;
+}
+
+.wrapper {
+	background: #eaf6ff;
+	padding: 2rem;
+	border-radius: 15px;
+}
+
+.timeline-heading {
+	font-size: 1.1rem;
+	font-family: sans-serif;
+}
+
+.sessions {
+	margin-top: 2rem;
+	border-radius: 12px;
+	position: relative;
+}
+
+li {
+	padding-bottom: 1.5rem;
+	border-left: 1px solid #abaaed;
+	position: relative;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+li:last-child {
+	 border: 0px;
+	 padding-bottom: 0;
+}
+li:before {
+	 content: "";
+	 width: 15px;
+	 height: 15px;
+	 background: white;
+	 border: 1px solid #4e5ed3;
+	 box-shadow: 3px 3px 0px #bab5f8;
+	 box-shadow: 3px 3px 0px #bab5f8;
+	 border-radius: 50%;
+	 position: absolute;
+	 left: -10px;
+	 top: 0px;
+}
+
+.time {
+	color: #2a2839;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+.timeline-text {
+	color: #4f4f4f;
+	font-family: sans-serif;
+	line-height: 1.5;
+	margin-top:0.4rem;
+}
+
+/*
+.brush {
+	fill: #ccc;
+	fill-opacity: .5;
+	pointer-events: none;
+}*/
+
+/*.axis line,*/
+/*.axis path {*/
+/*  fill: none;*/
+/*  stroke: #555;*/
+/*  shape-rendering: crispEdges;*/
+/*}*/
+
+/*.tick text {*/
+/*	font-family: sans-serif;*/
+/*	font-size: 11px;*/
+/*	fill: #555;*/
+/*}*/
+
+/*#priovis .x-axis text {*/
+/*	font-weight: 600;*/
+/*}*/
+
+/*.area {*/
+/*	fill: #825a5a;*/
+/*}*/
+
+/*.area.area-age {*/
+/*	fill: #94a97a;*/
+/*}*/
+
+/*.bar {*/
+/*	fill: #93bebf;*/
+/*}*/
