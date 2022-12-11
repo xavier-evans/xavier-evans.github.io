@@ -47,30 +47,17 @@ i {
 	margin: 1.5em auto 0 auto;
 }
 
-.arrow-right {
-	max-width: 100%;
-	max-height: 100%;
-	display: block;
-	margin: 0 1em 0 auto;
-}
-
-.arrow-left {
-	max-width: 100%;
-	max-height: 100%;
-	display: block;
-	margin: 0 auto 0 1em;
-}
-
 .right-heading {
 	text-align: end;
 }
 
-iframe {
+.solo-recording {
 	margin: 4em auto 0 auto;
 	display:block;
 }
 
-ul, li{
+ul,
+li {
 	list-style: none;
 	padding: 0;
 }
@@ -85,8 +72,8 @@ ul, li{
 }
 
 .wrapper {
-	background: #eaf6ff;
-	padding: 2rem;
+	background: #f3f7ed;
+	padding: 0rem 4rem 1rem 2rem;
 	border-radius: 15px;
 }
 
@@ -103,7 +90,7 @@ ul, li{
 
 li {
 	padding-bottom: 1.5rem;
-	border-left: 1px solid #abaaed;
+	border-left: 1px solid #d1dbc3;
 	position: relative;
 	padding-left: 20px;
 	margin-left: 10px;
@@ -117,9 +104,9 @@ li:before {
 	 width: 15px;
 	 height: 15px;
 	 background: white;
-	 border: 1px solid #4e5ed3;
-	 box-shadow: 3px 3px 0px #bab5f8;
-	 box-shadow: 3px 3px 0px #bab5f8;
+	 border: 1px solid #94a97a;
+	 box-shadow: 3px 3px 0px #d1dbc3;
+	 box-shadow: 3px 3px 0px #d1dbc3;
 	 border-radius: 50%;
 	 position: absolute;
 	 left: -10px;
@@ -136,41 +123,76 @@ li:before {
 	color: #4f4f4f;
 	font-family: sans-serif;
 	line-height: 1.5;
-	margin-top:0.4rem;
+	margin-top: 0.4rem;
 }
 
-/*
-.brush {
-	fill: #ccc;
-	fill-opacity: .5;
-	pointer-events: none;
-}*/
+.video-container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	margin-bottom: 1em;
+}
 
-/*.axis line,*/
-/*.axis path {*/
-/*  fill: none;*/
-/*  stroke: #555;*/
-/*  shape-rendering: crispEdges;*/
-/*}*/
+.video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
-/*.tick text {*/
-/*	font-family: sans-serif;*/
-/*	font-size: 11px;*/
-/*	fill: #555;*/
-/*}*/
+#ipa {
+	margin-bottom: 1em;
+}
 
-/*#priovis .x-axis text {*/
-/*	font-weight: 600;*/
-/*}*/
+#youtube-compensation {
+	margin-top: 2em;
+}
 
-/*.area {*/
-/*	fill: #825a5a;*/
-/*}*/
+#translation {
+	text-align: center;
+}
 
-/*.area.area-age {*/
-/*	fill: #94a97a;*/
-/*}*/
+audio {
+	margin-bottom: 1em;
+	width: 100%;
+}
 
-/*.bar {*/
-/*	fill: #93bebf;*/
-/*}*/
+.coaching-heading {
+	text-align: center;
+}
+
+/****************/
+/*  LINE CHART  */
+/****************/
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+.axis text {
+	font-size: 11px;
+	font-family: Palatino;
+}
+
+.line {
+	fill: none;
+	stroke: #000;
+	stroke-width: 3px;
+}
+
+.axis-title {
+	font-size: x-small;
+	font-family: Palatino;
+}
+
+.title {
+	font-family: Palatino;
+}
+
+.hour-tooltip {
+	font-family: Palatino;
+}
