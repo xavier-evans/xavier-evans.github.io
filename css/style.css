@@ -163,6 +163,10 @@ audio {
 	text-align: center;
 }
 
+#conclusion {
+	margin-bottom: 5em;
+}
+
 /****************/
 /*  LINE CHART  */
 /****************/
